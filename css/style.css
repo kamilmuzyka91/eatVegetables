@@ -1,0 +1,16 @@
+:root {
+  --main-font: "Nunito Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
