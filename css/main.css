@@ -1,10 +1,12 @@
 @import "./reset.css";
 @import "./header.css";
+@import "./banner.css";
 
 :root {
   --main-font: "Nunito Sans", sans-serif;
   --link-color: #8e9696;
   --link-color-hover: #213131;
+  --banner-color: #fff;
 }
 
 * {
