@@ -1,0 +1,30 @@
+@import "./reset.css";
+@import "./header.css";
+@import "./banner.css";
+@import "./article.css";
+@import "./footer.css";
+
+:root {
+  --main-font: "Nunito Sans", sans-serif;
+  --link-color: #8e9696;
+  --link-color-hover: #213131;
+  --banner-color: #fff;
+  --article-text: #b0aeab;
+  --btn-border: #f35044;
+  --link-text: #f35044;
+  --footer-bg: #f2f2f2;
+  --footer-copy: #b6b6b6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}

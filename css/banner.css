@@ -1,0 +1,30 @@
+.banner {
+  height: 580px;
+  background-image: url("../images/background-img.jpg");
+  background-position: center;
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: var(--banner-color);
+}
+
+.banner__title {
+  font-size: 3.5em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.banner__title span {
+  text-decoration: underline;
+  font-weight: 900;
+}
+
+.banner__text {
+  font-size: 1.2em;
+  font-weight: 400px;
+  opacity: 0.6;
+}
