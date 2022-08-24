@@ -31,6 +31,6 @@
   padding: 15px 15px;
   border: 2px solid var(--btn-border);
   border-radius: 50px;
-  color: var(--btn-text);
+  color: var(--link-text);
   text-decoration: none;
 }

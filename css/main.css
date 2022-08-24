@@ -2,6 +2,7 @@
 @import "./header.css";
 @import "./banner.css";
 @import "./article.css";
+@import "./footer.css";
 
 :root {
   --main-font: "Nunito Sans", sans-serif;
@@ -10,7 +11,9 @@
   --banner-color: #fff;
   --article-text: #b0aeab;
   --btn-border: #f35044;
-  --btn-text: #f35044;
+  --link-text: #f35044;
+  --footer-bg: #f2f2f2;
+  --footer-copy: #b6b6b6;
 }
 
 * {

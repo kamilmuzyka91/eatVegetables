@@ -1,0 +1,34 @@
+.page__footer {
+  height: 180px;
+  background: var(--footer-bg);
+}
+
+.page__footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.page__footer__nav {
+  display: flex;
+}
+
+.page__footer__nav li {
+  list-style: none;
+  margin-left: 20px;
+}
+
+.page__footer__nav a {
+  text-decoration: none;
+  color: var(--link-color);
+}
+
+.page__footer__nav a:hover {
+  color: var(--link-color-hover);
+}
+
+.page__footer__copyright {
+  color: var(--footer-copy);
+  font-style: italic;
+}
