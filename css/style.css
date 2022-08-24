@@ -1,5 +1,7 @@
 :root {
   --main-font: "Nunito Sans", sans-serif;
+  --link-color: #8e9696;
+  --link-color-hover: #213131;
 }
 
 * {
@@ -13,4 +15,30 @@ body {
 .container {
   margin: 0 auto;
   width: 1200px;
+}
+
+.page__header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+}
+
+.page__nav__list {
+  display: flex;
+}
+
+.page__nav__list li {
+  margin-left: 40px;
+}
+
+.page__nav__list a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--link-color);
+  font-weight: 600;
+}
+
+.page__nav__list a:hover {
+  color: var(--link-color-hover);
 }
