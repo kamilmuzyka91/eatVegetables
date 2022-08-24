@@ -1,6 +1,7 @@
 @import "./reset.css";
 @import "./header.css";
 @import "./banner.css";
+@import "./article.css";
 
 :root {
   --main-font: "Nunito Sans", sans-serif;
